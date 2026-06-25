@@ -3,7 +3,7 @@
 Hi there! This is my first serious and large-scale project written in C++. The application is a desktop manager designed for hotel administrators to help them manage rooms, register guests, and keep track of booking history.
 
 ## 🎥 Программа в действии (Видео)
-![](./assets//demo.mp4)
+![](./assets/demo.mp4)
 
 ---
 
@@ -47,7 +47,7 @@ Sure, this approach might seem a bit unconventional, but for our first serious p
 
 To visualize the connections between classes and vectors, a UML schema was created. You can view it directly in the repository:
 
-![Project UML Diagram](./UML%20diagram-1.png)
+![Project UML Diagram](./assets/UML%20diagram-1.png)
 
 ---
 
