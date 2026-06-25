@@ -2,6 +2,12 @@
 
 Hi there! This is my first serious and large-scale project written in C++. The application is a desktop manager designed for hotel administrators to help them manage rooms, register guests, and keep track of booking history.
 
+## 🕰️ Project History
+
+* **100% Pure Human Code:** This project was developed back in **2021** and was fully completed on **April 25, 2021**. Absolutely **zero AI** was used here — just pure brainpower, documentation, and trial and error!
+* **The Defense:** I originally defended this project at my educational institution. The package included a slide presentation and a detailed explanatory note (*пояснювальна записка*) written in Ukrainian.
+* **Still Got It:** It's honestly amazing that even after all this time, I still perfectly remember how the system, the vectors, and the file-handling work under the hood. This was my first serious milestone in programming, and it holds a special place in my journey!
+
 ## 🎥 Программа в действии (Видео)
 ![](./assets/demo.gif)
 
