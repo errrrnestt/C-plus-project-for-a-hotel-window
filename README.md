@@ -8,7 +8,7 @@ Hi there! This is my first serious and large-scale project written in C++. The a
 * **The Defense:** I originally defended this project at my educational institution. The package included a slide presentation and a detailed explanatory note (*пояснювальна записка*) written in Ukrainian.
 * **Still Got It:** It's honestly amazing that even after all this time, I still perfectly remember how the system, the vectors, and the file-handling work under the hood. This was my first serious milestone in programming, and it holds a special place in my journey!
 
-## 🎥 Программа в действии (Видео)
+## 🎥 The program in action (Video)
 ![](./assets/demo.gif)
 
 ---
@@ -63,7 +63,7 @@ To visualize the connections between classes and vectors, a UML schema was creat
 
 ---
 
-## 🚀 How to Run
+
 
 ## 🚀 How to Run
 
