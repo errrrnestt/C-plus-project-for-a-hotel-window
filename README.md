@@ -39,13 +39,19 @@ Sure, this approach might seem a bit unconventional, but for our first serious p
 
 ## 📂 Project Structure
 
-* **Logic & Entities:**
-  * `class_Gust.h` / `Guest_.cpp` — manages hotel guest data.
-  * `class_Nomer.h` / `Nomer_.cpp` — handles room categories and types.
-  * `class_Room.h` / `Room_.cpp` — logic for managing specific hotel rooms.
-* **UI (Windows Forms):**
-  * `MyForm.h` — the main dashboard application window.
-  * `MyForm1.h` / `MyForm2.h` — additional dialog forms for data entry and generating reports.
+### 🧠 Core Logic
+* `class_Gust.h` / `Guest_.cpp` — Manages guest data (Full Name, age, gender, citizenship).
+* `class_Nomer.h` / `Nomer_.cpp` — Configures room categories (room type, capacity, payment status).
+* `class_Room.h` / `Room_.cpp` — Handles room and booking logic (room numbers, booking status, linking guests to rooms).
+
+### 🖥️ Windows Forms (UI)
+* `MyForm.h` / `.cpp` / `.resx` — Main application menu (the primary workspace for the administrator; loads vectors from files on startup).
+* `MyForm1.h` / `.cpp` / `.resx` — Form for entering, adding, and editing room and guest information.
+* `MyForm2.h` / `.cpp` / `.resx` — Form for data filtering, managing lists, and generating reports.
+
+### ⚙️ System
+* `Project1.sln` — Main solution file used to launch the entire project in Visual Studio.
+* `Project1.vcxproj` / `.filters` / `.user` — Internal compiler configurations and project file mappings.
 
 ---
 
@@ -59,3 +65,10 @@ To visualize the connections between classes and vectors, a UML schema was creat
 
 ## 🚀 How to Run
 
+## 🚀 How to Run
+
+1. Make sure the **C++/CLI Support** component is installed via the **Visual Studio Installer**.
+2. Open the `Project1.sln` solution file in Visual Studio.
+3. If build errors occur, right-click on the project in the Solution Explorer, select **Retarget solution**, and update the SDK version to match your current system.
+4. Set the build configuration to **Debug** and the active solution platform to **x86** (or x64 depending on your environment).
+5. Press **F5** (or `Ctrl + F5`) to compile and run the application.
