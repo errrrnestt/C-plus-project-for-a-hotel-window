@@ -1,0 +1,19 @@
+# Visual Studio hidden settings and cache folder
+.vs/
+
+# Build and compilation output directories
+Debug/
+Release/
+x64/
+x86/
+
+# Build artifacts and temporary files
+*.exe
+*.pdb
+*.obj
+*.log
+*.tlog
+*.lastbuildstate
+*.idb
+*.ilk
+*.meta
